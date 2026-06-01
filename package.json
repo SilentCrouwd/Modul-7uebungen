@@ -1,0 +1,17 @@
+{
+  "name": "modul-7uebungen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-start": "sass --watch style.scss outputstyle/output.css "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "sass": "^1.100.0"
+  }
+}
