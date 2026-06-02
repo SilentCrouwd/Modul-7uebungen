@@ -1,3 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 0 5rem;
+}
+
+.Header {
+  display: flex;
+  justify-content: center;
+}
+.Header__Headline {
+  border-bottom: 4px solid orange;
+  font-size: 3rem;
+}
+
+.Main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.Main__CardContainer {
+  display: flex;
+  gap: 2rem;
+}
+
+.Card {
+  border: solid 2px orange;
+}
+.Card__Img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+  background-color: orange;
+}
+.Card__Info {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 1rem;
+}
+.Card__Info__ProductName {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+.Card__Info__ProductDescription {
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.Card__PriceContainer {
+  display: flex;
+  gap: 1rem;
+  padding: 0 0.5rem;
+}
+.Card__PriceContainer__Price {
+  font-weight: bold;
+}
+.Card__PriceContainer__Price--Discount {
+  color: red;
+  text-decoration: line-through;
+}
+
+.Footer__BtnMore {
+  padding: 1rem;
+  background-color: orange;
+  border: none;
+  color: white;
+}
 
 /*# sourceMappingURL=output.css.map */
